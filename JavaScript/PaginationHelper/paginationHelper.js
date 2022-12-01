@@ -19,7 +19,7 @@ class PaginationHelper {
     pageItemCount(pageIndex) {
         // returns the number of items on the current page. page_index is zero based.
         // this method should return -1 for pageIndex values that are out of range
-        return pageIndex > 0 && pageIndex < this.pageCount()
+        return pageIndex >= 0 && pageIndex < this.pageCount()
             ? this.collection.slice(pageIndex * this.itemsPerPage, this.itemCount()).splice(0, this.itemsPerPage).length
             : -1;
     }

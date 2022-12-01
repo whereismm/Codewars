@@ -1,4 +1,6 @@
 # Project exclude paths
+.idea
 /JavaScript/node_modules/
 /JavaScript/package.json
 /JavaScript/package-lock.json
+.gitignore
