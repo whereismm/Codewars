@@ -1,0 +1,4 @@
+# Project exclude paths
+/JavaScript/node_modules/
+/JavaScript/package.json
+/JavaScript/package-lock.json
